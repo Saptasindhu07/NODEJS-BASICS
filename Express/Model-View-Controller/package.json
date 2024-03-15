@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^4.18.3",
+    "node": "^21.7.1",
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start":"" ,
+    "watch":"nodemon ServingWebsite/temp.js"
+},
+"devDependencies":{"nodemon": "^2.0.22"}
+}
