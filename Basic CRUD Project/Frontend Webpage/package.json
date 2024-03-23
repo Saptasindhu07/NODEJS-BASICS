@@ -1,0 +1,7 @@
+{"type": "module",
+  "dependencies": {
+    "module": "^1.2.5",
+    "node": "^21.7.1",
+    "require": "^2.4.20"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Model</title>
+    <script src="site_controller.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="user_input" style="border:2px solid white; height:30vh">
+        <span class="name">
+            <input style="position:relative;display:block;width:250px;height:100px" type="text" id="_name" placeholder="Name">
+        </span>
+        <span class="class">
+            <input style="position:relative;display:block;width:250px;height:100px" type="text" id="_class" placeholder="class">
+        </span>
+        <span class="subject">
+            <input style="position:relative;display:block;width:250px;height:100px" type="text" id="_subject" placeholder="subject">
+        </span>
+        <span class="submit">
+            <input style="position:relative;display:block; width:100px; height:100px; background-color:yellow" type="button" id="_submit">SUBMIT
+        </span>
+        <span class="clearfix"></span>
+    </div>
+    <div class="data_records" style="width:100%; height:1000px; display:block">
+        <table size="100%" style="border-style: double; border-color: blue; display:block; position:relative">
+            <thead style="border-style: groove;">
+                <tr style="border-style:double" >
+                    <th class="column_header">Name </th>
+                    <th class="column_header">Class </th>
+                    <th class="column_header">Subject</th>
+                </tr>
+            </thead>
+            <tbody class="data_records_">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

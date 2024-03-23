@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+}
+.clearfix{
+    clear: both;
+}
+.user_input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.name{
+    display: block;
+    float: left;
+    position: relative;
+    width:20vw;
+    height:20vh;
+    margin-left: 2vw;
+    margin-top: ;
+    margin-bottom: 0px;
+
+}
+.class{
+    display: block;
+    float: left;
+    position: relative;
+    width:20vw;
+    height:20vh;
+    margin-left: 2vw;
+    margin-top: ;
+    margin-bottom: 0px;
+}
+.subject{
+    display: block;
+    float: left;
+    position: relative;
+    width:20vw;
+    height:20vh;
+    margin-left: 2vw;
+    margin-top: ;
+    margin-bottom: 0px;
+}
+.submit{
+    display: block;
+    float: left;
+    position: relative;
+    width:20vw;
+    height:20vh;
+    margin-left: 2vw;
+    margin-top: ;
+    margin-bottom: 0px;
+}
+.column_header{
+    position: relative;
+    width:4%;
+    border: 1px solid red;
+}
