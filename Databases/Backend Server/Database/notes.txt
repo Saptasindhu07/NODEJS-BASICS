@@ -1,0 +1,3 @@
+WHAT ARE OBJECT IDS?
+
+Object IDS are Long Random Values that are populated randomly when we create a document. This ID is unique across all instances of a database.
